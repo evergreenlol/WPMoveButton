@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70E93D01F998C5A007BE616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E93CF1F998C5A007BE616 /* AppDelegate.swift */; };
+		F70E93D21F998C5A007BE616 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E93D11F998C5A007BE616 /* ViewController.swift */; };
+		F70E93D51F998C5A007BE616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70E93D31F998C5A007BE616 /* Main.storyboard */; };
+		F70E93D71F998C5A007BE616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70E93D61F998C5A007BE616 /* Assets.xcassets */; };
+		F70E93DA1F998C5A007BE616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70E93D81F998C5A007BE616 /* LaunchScreen.storyboard */; };
+		F70E93E51F998C5A007BE616 /* WPMoveButton_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E93E41F998C5A007BE616 /* WPMoveButton_SwiftTests.swift */; };
+		F70E93F01F998C5A007BE616 /* WPMoveButton_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E93EF1F998C5A007BE616 /* WPMoveButton_SwiftUITests.swift */; };
+		F70E93FE1F998C8B007BE616 /* WPMoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E93FD1F998C8B007BE616 /* WPMoveButton.swift */; };
+		F76ED0DD1F99CBF200A9F671 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76ED0DC1F99CBF200A9F671 /* Const.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70E93E11F998C5A007BE616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70E93C41F998C5A007BE616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70E93CB1F998C5A007BE616;
+			remoteInfo = WPMoveButton_Swift;
+		};
+		F70E93EC1F998C5A007BE616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70E93C41F998C5A007BE616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70E93CB1F998C5A007BE616;
+			remoteInfo = WPMoveButton_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F70E93CC1F998C5A007BE616 /* WPMoveButton_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPMoveButton_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70E93CF1F998C5A007BE616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F70E93D11F998C5A007BE616 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F70E93D41F998C5A007BE616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F70E93D61F998C5A007BE616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70E93D91F998C5A007BE616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F70E93DB1F998C5A007BE616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70E93E01F998C5A007BE616 /* WPMoveButton_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPMoveButton_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70E93E41F998C5A007BE616 /* WPMoveButton_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPMoveButton_SwiftTests.swift; sourceTree = "<group>"; };
+		F70E93E61F998C5A007BE616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70E93EB1F998C5A007BE616 /* WPMoveButton_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPMoveButton_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70E93EF1F998C5A007BE616 /* WPMoveButton_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPMoveButton_SwiftUITests.swift; sourceTree = "<group>"; };
+		F70E93F11F998C5A007BE616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70E93FD1F998C8B007BE616 /* WPMoveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPMoveButton.swift; sourceTree = "<group>"; };
+		F76ED0DC1F99CBF200A9F671 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70E93C91F998C5A007BE616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E93DD1F998C5A007BE616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E93E81F998C5A007BE616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70E93C31F998C5A007BE616 = {
+			isa = PBXGroup;
+			children = (
+				F70E93CE1F998C5A007BE616 /* WPMoveButton_Swift */,
+				F70E93E31F998C5A007BE616 /* WPMoveButton_SwiftTests */,
+				F70E93EE1F998C5A007BE616 /* WPMoveButton_SwiftUITests */,
+				F70E93CD1F998C5A007BE616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70E93CD1F998C5A007BE616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70E93CC1F998C5A007BE616 /* WPMoveButton_Swift.app */,
+				F70E93E01F998C5A007BE616 /* WPMoveButton_SwiftTests.xctest */,
+				F70E93EB1F998C5A007BE616 /* WPMoveButton_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70E93CE1F998C5A007BE616 /* WPMoveButton_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F70E93CF1F998C5A007BE616 /* AppDelegate.swift */,
+				F70E93D11F998C5A007BE616 /* ViewController.swift */,
+				F70E93FD1F998C8B007BE616 /* WPMoveButton.swift */,
+				F76ED0DC1F99CBF200A9F671 /* Const.swift */,
+				F70E93D31F998C5A007BE616 /* Main.storyboard */,
+				F70E93D61F998C5A007BE616 /* Assets.xcassets */,
+				F70E93D81F998C5A007BE616 /* LaunchScreen.storyboard */,
+				F70E93DB1F998C5A007BE616 /* Info.plist */,
+			);
+			path = WPMoveButton_Swift;
+			sourceTree = "<group>";
+		};
+		F70E93E31F998C5A007BE616 /* WPMoveButton_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F70E93E41F998C5A007BE616 /* WPMoveButton_SwiftTests.swift */,
+				F70E93E61F998C5A007BE616 /* Info.plist */,
+			);
+			path = WPMoveButton_SwiftTests;
+			sourceTree = "<group>";
+		};
+		F70E93EE1F998C5A007BE616 /* WPMoveButton_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F70E93EF1F998C5A007BE616 /* WPMoveButton_SwiftUITests.swift */,
+				F70E93F11F998C5A007BE616 /* Info.plist */,
+			);
+			path = WPMoveButton_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70E93CB1F998C5A007BE616 /* WPMoveButton_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70E93F41F998C5A007BE616 /* Build configuration list for PBXNativeTarget "WPMoveButton_Swift" */;
+			buildPhases = (
+				F70E93C81F998C5A007BE616 /* Sources */,
+				F70E93C91F998C5A007BE616 /* Frameworks */,
+				F70E93CA1F998C5A007BE616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPMoveButton_Swift;
+			productName = WPMoveButton_Swift;
+			productReference = F70E93CC1F998C5A007BE616 /* WPMoveButton_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F70E93DF1F998C5A007BE616 /* WPMoveButton_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70E93F71F998C5A007BE616 /* Build configuration list for PBXNativeTarget "WPMoveButton_SwiftTests" */;
+			buildPhases = (
+				F70E93DC1F998C5A007BE616 /* Sources */,
+				F70E93DD1F998C5A007BE616 /* Frameworks */,
+				F70E93DE1F998C5A007BE616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70E93E21F998C5A007BE616 /* PBXTargetDependency */,
+			);
+			name = WPMoveButton_SwiftTests;
+			productName = WPMoveButton_SwiftTests;
+			productReference = F70E93E01F998C5A007BE616 /* WPMoveButton_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F70E93EA1F998C5A007BE616 /* WPMoveButton_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70E93FA1F998C5A007BE616 /* Build configuration list for PBXNativeTarget "WPMoveButton_SwiftUITests" */;
+			buildPhases = (
+				F70E93E71F998C5A007BE616 /* Sources */,
+				F70E93E81F998C5A007BE616 /* Frameworks */,
+				F70E93E91F998C5A007BE616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70E93ED1F998C5A007BE616 /* PBXTargetDependency */,
+			);
+			name = WPMoveButton_SwiftUITests;
+			productName = WPMoveButton_SwiftUITests;
+			productReference = F70E93EB1F998C5A007BE616 /* WPMoveButton_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70E93C41F998C5A007BE616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wp;
+				TargetAttributes = {
+					F70E93CB1F998C5A007BE616 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F70E93DF1F998C5A007BE616 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F70E93CB1F998C5A007BE616;
+					};
+					F70E93EA1F998C5A007BE616 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F70E93CB1F998C5A007BE616;
+					};
+				};
+			};
+			buildConfigurationList = F70E93C71F998C5A007BE616 /* Build configuration list for PBXProject "WPMoveButton_Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70E93C31F998C5A007BE616;
+			productRefGroup = F70E93CD1F998C5A007BE616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70E93CB1F998C5A007BE616 /* WPMoveButton_Swift */,
+				F70E93DF1F998C5A007BE616 /* WPMoveButton_SwiftTests */,
+				F70E93EA1F998C5A007BE616 /* WPMoveButton_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70E93CA1F998C5A007BE616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E93DA1F998C5A007BE616 /* LaunchScreen.storyboard in Resources */,
+				F70E93D71F998C5A007BE616 /* Assets.xcassets in Resources */,
+				F70E93D51F998C5A007BE616 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E93DE1F998C5A007BE616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E93E91F998C5A007BE616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70E93C81F998C5A007BE616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E93D21F998C5A007BE616 /* ViewController.swift in Sources */,
+				F76ED0DD1F99CBF200A9F671 /* Const.swift in Sources */,
+				F70E93D01F998C5A007BE616 /* AppDelegate.swift in Sources */,
+				F70E93FE1F998C8B007BE616 /* WPMoveButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E93DC1F998C5A007BE616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E93E51F998C5A007BE616 /* WPMoveButton_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70E93E71F998C5A007BE616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E93F01F998C5A007BE616 /* WPMoveButton_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F70E93E21F998C5A007BE616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70E93CB1F998C5A007BE616 /* WPMoveButton_Swift */;
+			targetProxy = F70E93E11F998C5A007BE616 /* PBXContainerItemProxy */;
+		};
+		F70E93ED1F998C5A007BE616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70E93CB1F998C5A007BE616 /* WPMoveButton_Swift */;
+			targetProxy = F70E93EC1F998C5A007BE616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F70E93D31F998C5A007BE616 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70E93D41F998C5A007BE616 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F70E93D81F998C5A007BE616 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70E93D91F998C5A007BE616 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70E93F21F998C5A007BE616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70E93F31F998C5A007BE616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70E93F51F998C5A007BE616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPMoveButton_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wp.WPMoveButton-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F70E93F61F998C5A007BE616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPMoveButton_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wp.WPMoveButton-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F70E93F81F998C5A007BE616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPMoveButton_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wp.WPMoveButton-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPMoveButton_Swift.app/WPMoveButton_Swift";
+			};
+			name = Debug;
+		};
+		F70E93F91F998C5A007BE616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPMoveButton_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wp.WPMoveButton-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPMoveButton_Swift.app/WPMoveButton_Swift";
+			};
+			name = Release;
+		};
+		F70E93FB1F998C5A007BE616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPMoveButton_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wp.WPMoveButton-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPMoveButton_Swift;
+			};
+			name = Debug;
+		};
+		F70E93FC1F998C5A007BE616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPMoveButton_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wp.WPMoveButton-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPMoveButton_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70E93C71F998C5A007BE616 /* Build configuration list for PBXProject "WPMoveButton_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70E93F21F998C5A007BE616 /* Debug */,
+				F70E93F31F998C5A007BE616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70E93F41F998C5A007BE616 /* Build configuration list for PBXNativeTarget "WPMoveButton_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70E93F51F998C5A007BE616 /* Debug */,
+				F70E93F61F998C5A007BE616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70E93F71F998C5A007BE616 /* Build configuration list for PBXNativeTarget "WPMoveButton_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70E93F81F998C5A007BE616 /* Debug */,
+				F70E93F91F998C5A007BE616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70E93FA1F998C5A007BE616 /* Build configuration list for PBXNativeTarget "WPMoveButton_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70E93FB1F998C5A007BE616 /* Debug */,
+				F70E93FC1F998C5A007BE616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70E93C41F998C5A007BE616 /* Project object */;
+}
